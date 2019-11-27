@@ -37,7 +37,6 @@ def initialize_check():
 
 
 if __name__ == '__main__':
-
     computervision_client = initialize_check()
     url = "https://cdn.hk01.com/di/media/images/1482995/org/9debcaf412ffe39134631798798abe2d.jpg/HY1JGrqV4eyVXssYntBCkA5JVGOPdFs0Hd6yLR3esi0?v=w1920"
 
@@ -49,15 +48,11 @@ if __name__ == '__main__':
     urlCV.color_image()
     '''
 
-    path = "resources/Unknown-1.jpeg"
+    path = "resources/75636160_2640951032654577_2823295429175672832_n.jpg"
     localCV = LocalImageRecognizing.LocalCV(computervision_client, path)
-    #localCV.describe_image()
-    #localCV.detect_color()
+    localCV.describe_image()
+    # localCV.detect_color()
     localCV.tag_image()
-    #localCV.generate_thumbnail()
+    # localCV.generate_thumbnail()
     localCV.detect_adult_or_racy()
     localCV.show_image_path()
-
-
-
-

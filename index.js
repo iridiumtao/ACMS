@@ -1,3 +1,4 @@
+
 // Get the hash of the url
 const hash = window.location.hash
 .substring(1)
@@ -17,6 +18,7 @@ let _token = hash.access_token;
 const authEndpoint = 'https://accounts.spotify.com/authorize';
 
 // Replace with your app's client ID, redirect URI and desired scopes
+
 const clientId = '6be02df553ae4215a978d21e2fe46d4d';
 const redirectUri = 'http://127.0.0.1:5500/index.html';
 const scopes = [
@@ -49,7 +51,36 @@ window.onSpotifyPlayerAPIReady = () => {
     console.log(state)
     $('#current-track').attr('src', state.track_window.current_track.album.images[0].url);
     $('#current-track-name').text(state.track_window.current_track.name);
+    getCurrentState()
   });
+
+
+  function getCurrentState(){
+      player.getCurrentState().then(state => {
+      if (!state) {
+        console.error('User is not playing music through the Web Playback SDK');
+        return;
+      }
+    
+      let {
+        current_track,
+        next_tracks: [next_track]
+      } = state.track_window;
+      let {
+        paused,
+        position,
+      } = state;
+
+    
+      $('#current-track-position').text(position);
+      if (!paused){
+          timeoutId = setTimeout(function () {
+            getCurrentState();
+        }, 100);
+      }
+    });
+  }
+
 
   // Ready
   player.on('ready', data => {
@@ -68,7 +99,7 @@ function play(device_id) {
   $.ajax({
    url: "https://api.spotify.com/v1/me/player/play?device_id=" + device_id,
    type: "PUT",
-   data: '{"uris": ["spotify:track:3FY8S1VGJEPw16ejMPILzY"]}',
+   data: '{"uris": ["spotify:track:2cE5PbW9PhPmnyETXqH3VE"]}',
    beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + _token );},
    success: function(data) { 
      console.log(data)
