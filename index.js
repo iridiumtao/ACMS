@@ -47,10 +47,15 @@ window.onSpotifyPlayerAPIReady = () => {
   player.on('playback_error', e => console.error(e));
 
   // Playback status updates
-  player.on('player_state_changed', state => {
-    console.log(state)
-    $('#current-track').attr('src', state.track_window.current_track.album.images[0].url);
-    $('#current-track-name').text(state.track_window.current_track.name);
+  player.on('player_state_changed', ({
+    position,
+    duration,
+    track_window
+  }) => {
+    console.log("1");
+    $('#current-track').attr('src', track_window.current_track.album.images[0].url);
+    $('#current-track-name').text(track_window.current_track.name);
+    $('#current-track-duration').text(duration);
     getCurrentState()
   });
 
@@ -70,7 +75,7 @@ window.onSpotifyPlayerAPIReady = () => {
         paused,
         position,
       } = state;
-
+      console.log(position);
     
       $('#current-track-position').text(position);
       if (!paused){
