@@ -33,6 +33,26 @@ class LocalCV:
                 print("'{}' with confidence {:.2f}%".format(caption.text, caption.confidence * 100))
         print()
 
+    def get_describe_image(self):
+        tmp_str = ""
+
+        tmp_str += "===== Describe an Image - local =====\n"
+        # Open local image file
+        local_image = open(self.local_image_path, "rb")
+
+        # Call API
+        description_result = self.computervision_client.describe_image_in_stream(local_image)
+
+        # Get the captions (descriptions) from the response, with confidence level
+        tmp_str += "Description of local image: \n"
+        if (len(description_result.captions) == 0):
+            tmp_str += "No description detected.\n"
+        else:
+            for caption in description_result.captions:
+                tmp_str += "'{}' with confidence {:.2f}%\n".format(caption.text, caption.confidence * 100)
+        return tmp_str
+        
+
     def categorize_image(self):
         print("===== Categorize an Image - local =====")
         # Open local image file
@@ -51,6 +71,27 @@ class LocalCV:
                 print("'{}' with confidence {:.2f}%".format(category.name, category.score * 100))
         print()
 
+    def get_categorize_image(self):
+        tmp_str = ""
+        # tmp_str += "===== Categorize an Image - local =====\n"
+        # Open local image file
+        local_image = open(self.local_image_path, "rb")
+        # Select visual feature type(s)
+        local_image_features = ["categories"]
+        # Call API
+        categorize_results_local = self.computervision_client.analyze_image_in_stream(local_image, local_image_features)
+
+        # Print category results with confidence score
+        # tmp_str += "Categories from local image: \n"
+        if (len(categorize_results_local.categories) == 0):
+            tmp_str += "No categories detected.\n"
+        else:
+            for category in categorize_results_local.categories:
+                if (category.score * 100) > 60:
+                    tmp_str += "'{}', ".format(category.name)
+        tmp_str += "\n"
+        return tmp_str
+
     def tag_image(self):
         print("===== Tag an Image - local =====")
         # Open local image file
@@ -66,6 +107,24 @@ class LocalCV:
             for tag in tags_result_local.tags:
                 print("'{}' with confidence {:.2f}%".format(tag.name, tag.confidence * 100))
         print()
+
+    def get_tag_image(self):
+        tmp_str = ""
+        # Open local image file
+        local_image = open(self.local_image_path, "rb")
+        # Call API local image
+        tags_result_local = self.computervision_client.tag_image_in_stream(local_image)
+
+        # Print results with confidence score
+        # tmp_str += "Tags in the local image: \n"
+        if (len(tags_result_local.tags) == 0):
+            tmp_str += "No tags detected.\n"
+        else:
+            for tag in tags_result_local.tags:
+                if (tag.confidence * 100) > 60:
+                    tmp_str += "'{}', ".format(tag.name)
+        tmp_str += "\n"
+        return tmp_str
 
     def detect_face(self):
         print("===== Detect Faces - local =====")
@@ -137,6 +196,28 @@ class LocalCV:
         print("Dominant foreground color: {}".format(detect_color_results_local.color.dominant_color_foreground))
         print("Dominant colors: {}".format(detect_color_results_local.color.dominant_colors))
         print()
+
+    def get_detect_color(self):
+        tmp_str = ""
+        # print("===== Detect Color - local =====\n")
+        # Open local image
+        local_image = open(self.local_image_path, "rb")
+        # Select visual feature(s) you want
+        local_image_features = ["color"]
+        # Call API with local image and features
+        detect_color_results_local = self.computervision_client.analyze_image_in_stream(local_image,
+                                                                                        local_image_features)
+
+        # Print results of the color scheme detected
+        # tmp_str += "Getting color scheme of the local image: \n"
+        # tmp_str += "{}, ".format(detect_color_results_local.color.is_bw_img)
+        tmp_str += "{}, ".format(detect_color_results_local.color.accent_color)
+        tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_background)
+        tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_foreground)
+        # tmp_str += "{}, ".format(detect_color_results_local.color.dominant_colors)
+        tmp_str += "\n"
+        return tmp_str
+
 
     '''
     Detect Image Types - local

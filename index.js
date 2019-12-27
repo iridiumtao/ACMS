@@ -20,7 +20,7 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
 
 const clientId = '6be02df553ae4215a978d21e2fe46d4d';
-const redirectUri = 'http://127.0.0.1:5500/index.html';
+const redirectUri = 'http://192.168.43.141/';
 const scopes = [
   'streaming',
   'user-read-private',

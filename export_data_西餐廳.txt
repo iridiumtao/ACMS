@@ -1,0 +1,667 @@
+AAAAAAAAA
+/restaurants/西餐廳/Western restaurant (30).jpg
+'table', 'chair', 'indoor', 'floor', 'kitchen & dining room table', 'room', 'window', 'coffee table', 'living', 'restaurant', 'cafe', 'dining', 'interior', 
+'indoor_venue', 
+69412C, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (101).jpg
+'floor', 'indoor', 'furniture', 'table', 'chair', 'ceiling', 'desk', 'text', 'kitchen & dining room table', 
+'indoor_venue', 
+BB9210, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (88).jpg
+'indoor', 'window', 'hotel', 'house', 'table', 'chair', 'building', 'luxury', 'design', 'kitchen & dining room table', 'interior', 'houseplant', 'coffee table', 
+'indoor_', 
+6C4124, White, White, 
+
+resources/restaurants/西餐廳/Western restaurant (67).jpg
+'indoor', 'ceiling', 'kitchen', 'furniture', 'floor', 'desk', 'person', 'counter', 'text', 'clothing', 'working', 'cabinetry', 
+
+C48E07, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (71).jpg
+'indoor', 'floor', 'table', 'text', 'furniture', 'food', 'person', 'fast food', 'restaurant', 
+'indoor_marketstore', 
+C37D08, Pink, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (3).jpg
+'table', 'ceiling', 'indoor', 'chair', 'hotel', 'desk', 'office', 'design', 'office building', 'building', 'room', 'kitchen & dining room table', 
+'indoor_venue', 
+C7AA04, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (26).jpg
+'table', 'floor', 'chair', 'text', 'indoor', 'kitchen & dining room table', 'restaurant', 'scene', 'ceiling', 'coffee table', 'desk', 'library', 'building', 'hotel', 'dining', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (3).png
+
+resources/restaurants/西餐廳/Western restaurant (117).jpg
+'table', 'text', 'furniture', 
+
+9D622E, Grey, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (84).jpg
+'indoor', 'room', 'table', 'living', 'floor', 'wall', 'coffee table', 'kitchen & dining room table', 'restaurant', 'couch', 'chair', 'hotel', 'ceiling', 'building', 'interior', 'furniture', 'house', 'vase', 'cafe', 'studio couch', 'dining', 'bar', 'lounge', 
+'indoor_venue', 
+BA8811, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (92).jpg
+'fast food', 'indoor', 'food', 'restaurant', 'ceiling', 'menu', 'text', 'counter', 
+'indoor_marketstore', 
+1319B8, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (51).jpg
+'food', 'indoor', 
+
+BE950D, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (137).jpg
+'floor', 'wall', 'indoor', 'table', 'room', 'living', 'chair', 'coffee table', 'vase', 'kitchen & dining room table', 'ceiling', 'fireplace', 
+
+A67325, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (121).jpg
+'table', 'indoor', 'kitchen & dining room table', 'floor', 'chair', 'coffee table', 'room', 'ceiling', 'vase', 'living', 'dining', 'house', 'furniture', 
+'indoor_venue', 
+3C1D10, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (10).jpg
+'table', 'ceiling', 'indoor', 'chair', 'window', 'building', 'design', 'vase', 'coffee table', 'hotel', 'kitchen & dining room table', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (47).JPG
+
+resources/restaurants/西餐廳/Western restaurant (46).jpg
+'floor', 'indoor', 'clothing', 'table', 'chair', 'person', 'ceiling', 'man', 'woman', 
+'indoor_venue', 
+C38008, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (11).jpg
+'table', 'indoor', 'furniture', 'chair', 'kitchen & dining room table', 'tableware', 'building', 'tablecloth', 
+'indoor_venue', 
+B38F18, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (120).jpg
+'ceiling', 'food', 'indoor', 'fast food', 'person', 'cafe', 'text', 'dinner', 
+'indoor_marketstore', 
+C29109, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (136).jpg
+'table', 'chair', 'indoor', 'floor', 'kitchen & dining room table', 'coffee table', 'house', 'restaurant', 'hotel', 'ceiling', 'text', 'building', 
+
+796146, Grey, Grey, 
+
+resources/restaurants/西餐廳/Western restaurant (50).jpg
+'table', 'indoor', 'restaurant', 'chair', 'ceiling', 'kitchen & dining room table', 
+'indoor_marketstore', 
+A47D27, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (93).jpg
+'floor', 'furniture', 'table', 'indoor', 'kitchen & dining room table', 'ceiling', 'chair', 'coffee table', 'desk', 
+'indoor_venue', 
+B67D15, White, White, 
+
+resources/restaurants/西餐廳/Western restaurant (85).jpg
+'table', 'food', 'design', 'counter', 'countertop', 'fast food', 'furniture', 
+'indoor_marketstore', 
+
+resources/restaurants/西餐廳/Western restaurant (116).jpg
+
+resources/restaurants/西餐廳/Western restaurant (27).jpg
+'floor', 'indoor', 'ceiling', 'table', 'kitchen', 'furniture', 'desk', 'building', 
+
+BC200F, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (2).png
+'table', 'furniture', 'indoor', 'chair', 'restaurant', 'kitchen & dining room table', 'coffee table', 'cafe', 'food', 'ceiling', 'text', 
+'indoor_venue', 
+8B6740, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (2).jpg
+'ceiling', 'indoor', 'wall', 'person', 'table', 
+'indoor_venue', 
+C58706, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (70).jpg
+'furniture', 'table', 'indoor', 
+
+B98E12, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (89).jpg
+'food', 'vegetable', 'fruit', 'restaurant', 'fast food', 
+'indoor_marketstore', 
+AE2E1D, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (66).jpg
+'indoor', 'table', 'food', 'furniture', 'restaurant', 'text', 'chair', 
+
+C39208, White, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (100).jpg
+'indoor', 'table', 'ceiling', 'floor', 'kitchen & dining room table', 'chair', 'desk', 'room', 'coffee table', 'office building', 'design', 'building', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (31).jpg
+
+resources/restaurants/西餐廳/Western restaurant (82).jpg
+'furniture', 'table', 'chair', 'indoor', 'kitchen & dining room table', 'interior', 'coffee table', 'house', 'cabinetry', 'mirror', 
+
+986033, Brown, Grey, 
+
+resources/restaurants/西餐廳/Western restaurant (9).jpg
+'indoor', 'ceiling', 'floor', 'table', 'room', 'chair', 'living', 'hotel', 'kitchen & dining room table', 
+'indoor_venue', 
+1E0D05, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (94).jpg
+'floor', 'table', 'indoor', 'kitchen & dining room table', 'chair', 'ceiling', 'coffee table', 'design', 'hotel', 'room', 'interior', 'luxury', 'desk', 'cabinetry', 'countertop', 'accommodation', 'dining', 'building', 
+'indoor_venue', 
+A86A23, Grey, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (57).jpg
+'table', 'floor', 'indoor', 'chair', 'kitchen & dining room table', 'ceiling', 'desk', 'scene', 'room', 'restaurant', 'text', 'dining', 'coffee table', 
+'indoor_venue', 
+B27619, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (131).jpg
+'indoor', 'table', 'ceiling', 'floor', 'chair', 'desk', 'kitchen & dining room table', 'coffee table', 
+'indoor_venue', 
+9E652D, White, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (127).JPG
+'floor', 'indoor', 'table', 'room', 'chair', 'ceiling', 'desk', 'living', 'library', 'window', 'interior', 'kitchen & dining room table', 'shelf', 'couch', 'building', 'furniture', 'coffee table', 'office building', 
+
+976634, Grey, Grey, 
+
+resources/restaurants/西餐廳/Western restaurant (16).jpg
+'table', 'chair', 'vase', 'floor', 'coffee table', 'green', 'window', 'indoor', 'kitchen & dining room table', 'houseplant', 'restaurant', 'flowerpot', 'house', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (41).jpg
+
+resources/restaurants/西餐廳/Western restaurant (36).jpg
+'fast food', 'food', 
+'indoor_marketstore', 
+C68A05, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (107).jpg
+'table', 'chair', 'indoor', 'kitchen & dining room table', 'vase', 'restaurant', 'house', 'coffee table', 'living', 'room', 'tableware', 
+'indoor_venue', 
+BB7810, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (61).jpg
+'table', 'fast food', 'indoor', 'food', 'snack', 'plate', 'pastry', 'dinner', 'restaurant', 'dessert', 'baked goods', 'meal', 'counter', 'delicious', 'cake', 'bakery', 
+'indoor_marketstore', 
+B28919, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (98).jpg
+'table', 'food', 'plate', 'fast food', 'indoor', 'counter', 
+
+A36E28, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (77).jpg
+'indoor', 'table', 'vase', 'furniture', 'person', 'clothing', 'restaurant', 'text', 
+'indoor_venue', 
+A98C22, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (5).jpg
+'table', 'candle', 'furniture', 'window', 'chair', 
+'indoor_venue', 
+0203C9, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (20).jpg
+'indoor', 'table', 'curtain', 'hotel', 'bed', 'chair', 'house', 'couch', 'ceiling', 'room', 'coffee table', 'kitchen & dining room table', 'vase', 'window', 'accommodation', 'studio couch', 'vacation', 'interior design', 'furniture', 'interior', 
+
+
+resources/restaurants/西餐廳/Western restaurant (5).png
+
+resources/restaurants/西餐廳/Western restaurant (111).jpg
+'table', 'vase', 'flower', 'candle', 'houseplant', 'indoor', 'flowerpot', 'chair', 
+'indoor_venue', 
+723825, Grey, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (110).jpg
+'table', 'furniture', 'chair', 'text', 'coffee table', 'restaurant', 'building', 'kitchen & dining room table', 'vase', 'bottle', 
+'drink_', 
+6E3B10, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (21).jpg
+'indoor', 'table', 'ceiling', 'floor', 'restaurant', 'desk', 'kitchen & dining room table', 'chair', 'cafe', 'coffee table', 'text', 'room', 'dining', 'cabinetry', 'office building', 
+'indoor_venue', 
+955A36, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (4).png
+'indoor', 'table', 'furniture', 'chair', 'ceiling', 'floor', 'kitchen & dining room table', 'room', 'building', 'coffee table', 'restaurant', 
+'indoor_venue', 
+9B6230, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (4).jpg
+'table', 'tableware', 'vase', 'plate', 'wine glass', 'flower', 'tablecloth', 'furniture', 'kitchen & dining room table', 'centrepiece', 'dining', 'candle', 'wedding', 'chair', 
+'indoor_venue', 
+271308, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (99).jpg
+'table', 'fast food', 'food', 'restaurant', 'vegetable', 'ceiling', 'person', 'dinner', 'cafe', 'clothing', 'menu', 
+'indoor_marketstore', 
+41671B, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (76).jpg
+'ceiling', 'indoor', 'table', 'furniture', 'restaurant', 'billiard table', 'games', 'indoor games and sports', 'recreation room', 'casino', 'chair', 'billiard room', 'billiards', 'kitchen & dining room table', 'pool', 'blackball (pool)', 'english billiards', 'billiard ball', 'straight pool', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (60).JPG
+
+resources/restaurants/西餐廳/Western restaurant (106).jpg
+'indoor', 'ceiling', 'furniture', 'table', 'floor', 'chair', 'cafe', 'kitchen & dining room table', 'window', 'desk', 'room', 'dining', 
+'indoor_venue', 
+C28609, White, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (37).jpg
+'food', 'fast food', 'snack', 
+
+948037, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (40).jpg
+'table', 'floor', 'indoor', 'chair', 'hotel', 'kitchen & dining room table', 'room', 'ceiling', 'coffee table', 'dining', 'vase', 
+'indoor_venue', 
+BF910C, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (17).jpg
+'table', 'indoor', 'chair', 'floor', 'wall', 'kitchen & dining room table', 'coffee table', 'desk', 'ceiling', 'room', 'hotel', 'office', 'office building', 'couch', 
+'indoor_venue', 
+AB6C20, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (126).jpg
+'furniture', 'chair', 'floor', 'table', 'kitchen & dining room table', 'indoor', 'ceiling', 'cafe', 'coffee table', 'bar', 'dining', 'desk', 'room', 'stool', 'cabinetry', 'wooden', 
+
+A27029, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (130).jpg
+'indoor', 'floor', 'ceiling', 'table', 'kitchen & dining room table', 'room', 'hotel', 'chair', 'coffee table', 'restaurant', 'dining', 'accommodation', 
+'indoor_venue', 
+B32B18, White, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (56).JPG
+'indoor', 'floor', 'wall', 'table', 'ceiling', 'countertop', 'kitchen & dining room table', 'cabinetry', 'restaurant', 'window', 'room', 'hotel', 'dining', 'chair', 'interior', 'coffee table', 'cafe', 
+
+
+resources/restaurants/西餐廳/Western restaurant (95).jpg
+
+resources/restaurants/西餐廳/Western restaurant (8).jpg
+'ceiling', 'indoor', 'table', 'person', 'floor', 'clothing', 'woman', 'furniture', 'people', 'dinner', 'chair', 
+'people_many', 
+996D32, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (83).jpg
+'indoor', 'text', 'shelf', 'counter', 
+
+A66B25, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (43).jpg
+'table', 'outdoor', 'furniture', 'chair', 'kitchen & dining room table', 'hotel', 'building', 'coffee table', 'tablecloth', 'vase', 
+'indoor_venue', 
+B36E18, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (14).jpg
+'table', 'ceiling', 'indoor', 'furniture', 'chair', 'kitchen & dining room table', 'tableware', 'dinner', 'vase', 'function hall', 'wine glass', 'dining', 'restaurant', 'tablecloth', 'hotel', 'coffee table', 
+'indoor_venue', 
+C17D0A, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (125).jpg
+'food', 'fast food', 'table', 'kitchen', 'plate', 'indoor', 'fruit', 'menu', 'counter', 'snack', 'food group', 'vegetable', 
+'indoor_marketstore', 
+A99B22, White, White, 
+
+resources/restaurants/西餐廳/Western restaurant (133).jpg
+'indoor', 'table', 'wall', 'chair', 'floor', 'kitchen & dining room table', 'restaurant', 'coffee table', 'room', 'hotel', 'vase', 'couch', 'interior', 
+
+8F743C, Grey, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (55).jpg
+'table', 'indoor', 'chair', 'floor', 'room', 'vase', 'living', 'text', 'kitchen & dining room table', 'ceiling', 'coffee table', 'restaurant', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (79).jpg
+
+resources/restaurants/西餐廳/Western restaurant (96).jpg
+'indoor', 'ceiling', 'table', 'wall', 'furniture', 'chair', 'kitchen & dining room table', 'bottle', 'tableware', 'menu', 'cafe', 
+'indoor_venue', 
+C28F09, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (80).jpg
+'indoor', 'wall', 'furniture', 'text', 'bottle', 'vase', 'person', 'shelf', 'window', 'restaurant', 'cabinetry', 'kitchen & dining room table', 'kitchen', 'countertop', 
+
+BD7F0E, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (38).jpg
+'food', 'indoor', 'fast food', 'counter', 
+'indoor_marketstore', 
+B88B13, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (109).jpg
+'table', 'food', 'plate', 'indoor', 'wall', 'tableware', 'fast food', 'dinner', 'platter', 'counter', 
+'indoor_marketstore', 
+A48327, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (129).jpg
+'table', 'indoor', 'food', 'plate', 'tableware', 'dairy', 'dessert', 
+'indoor_marketstore', 
+B0361B, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (18).jpg
+'indoor', 'floor', 'table', 'chair', 'ceiling', 'restaurant', 'room', 'person', 'green', 'text', 
+'people_many', 
+955D36, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (59).jpg
+'indoor', 'ceiling', 'table', 'menu', 'fast food', 'food', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (113).jpg
+
+resources/restaurants/西餐廳/Western restaurant (22).jpg
+'fast food', 'food', 'market', 'indoor', 'menu', 'snack', 'person', 'text', 
+'indoor_marketstore', 
+BA9911, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (7).jpg
+'table', 'indoor', 'chair', 'kitchen & dining room table', 'ceiling', 'room', 'floor', 'restaurant', 'coffee table', 
+'indoor_venue', 
+9D612E, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (75).jpg
+'ceiling', 'indoor', 'floor', 'table', 'restaurant', 'cabinetry', 'countertop', 'interior', 'kitchen & dining room table', 'desk', 'cafe', 'building', 'chair', 
+
+9A7431, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (63).jpg
+'floor', 'indoor', 'ceiling', 'table', 'desk', 'chair', 'shelf', 'coffee table', 'kitchen & dining room table', 'room', 'cabinetry', 'building', 'interior', 
+'indoor_venue', 
+906C3B, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (105).jpg
+'ceiling', 'indoor', 'table', 'chair', 'window', 'desk', 'office building', 'hotel', 'kitchen & dining room table', 'vase', 'design', 'room', 'office', 
+
+B49C17, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (34).jpg
+'indoor', 'floor', 'ceiling', 'table', 'room', 'chair', 'wall', 'living', 'hotel', 'coffee table', 'kitchen & dining room table', 'interior', 'house', 'couch', 'home', 'desk', 'furniture', 'interior design', 'design', 'cabinetry', 'studio couch', 'modern', 'vase', 
+
+301808, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (35).jpg
+'furniture', 'table', 'indoor', 'kitchen & dining room table', 'chair', 'window', 'coffee table', 'hotel', 'cafe', 'dining', 
+'indoor_venue', 
+986D33, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (104).jpg
+'table', 'text', 'furniture', 'chair', 
+'indoor_venue', 
+8C633F, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (62).jpg
+'indoor', 'table', 'living', 'chair', 'window', 'design', 'room', 'hotel', 'ceiling', 'interior', 'coffee table', 'text', 'furniture', 'desk', 
+'object_screen', 
+059EC6, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (1).jpeg
+'indoor', 'ceiling', 'floor', 'table', 'tableware', 'food', 'person', 'sink', 
+'indoor_venue', 
+BFA00C, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (74).jpg
+'indoor', 'floor', 'table', 'kitchen & dining room table', 'wall', 'ceiling', 'text', 'desk', 'interior', 'restaurant', 'coffee table', 'room', 'chair', 'cafe', 'design', 'cabinetry', 'dining', 'shelf', 
+'indoor_venue', 
+6E4120, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (6).jpg
+
+resources/restaurants/西餐廳/Western restaurant (23).jpg
+'indoor', 'table', 'floor', 'room', 'kitchen & dining room table', 'chair', 'coffee table', 'design', 'building', 'interior', 'ceiling', 'desk', 
+'indoor_venue', 
+231912, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (112).jpg
+
+resources/restaurants/西餐廳/Western restaurant (58).jpg
+'bottle', 'table', 'furniture', 'text', 
+
+BB8510, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (19).jpg
+'table', 'tableware', 'vase', 'indoor', 'furniture', 'mirror', 'tablecloth', 'wine glass', 'kitchen & dining room table', 'candle', 
+'indoor_marketstore', 
+271B0C, Brown, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (128).jpg
+'indoor', 'ceiling', 'floor', 'table', 'furniture', 'restaurant', 'chair', 
+'indoor_venue', 
+AA6D21, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (108).jpg
+'table', 'restaurant', 'indoor', 'tableware', 'furniture', 'window', 'bottle', 'vase', 'wine glass', 'drink', 
+'indoor_venue', 
+A66E25, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (39).jpg
+'table', 'indoor', 'floor', 'ceiling', 'kitchen & dining room table', 'text', 'chair', 'cafe', 'coffee table', 'room', 'desk', 'building', 'library', 'shelf', 'dining', 'cafeteria', 'restaurant', 
+'indoor_venue', 
+C38A08, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (81).jpg
+'flower', 'indoor', 'furniture', 'table', 'vase', 'chair', 'text', 'kitchen & dining room table', 'restaurant', 
+
+
+resources/restaurants/西餐廳/Western restaurant (78).jpg
+'wall', 'table', 'indoor', 'furniture', 'bottle', 'food', 'drink', 'red', 'restaurant', 'chair', 'tableware', 'text', 'kitchen & dining room table', 
+'indoor_venue', 
+C48307, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (97).jpg
+
+resources/restaurants/西餐廳/Western restaurant (54).jpg
+'floor', 'table', 'chair', 'restaurant', 'indoor', 'kitchen & dining room table', 'vase', 'living', 'room', 'flower', 'coffee table', 'houseplant', 
+
+8A6E41, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (132).jpg
+'furniture', 'floor', 'table', 'chair', 'indoor', 'desk', 'kitchen & dining room table', 'room', 'ceiling', 'coffee table', 'text', 'scene', 
+'indoor_venue', 
+694118, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (124).jpg
+'restaurant', 'food', 'fast food', 'indoor', 'text', 
+
+6F4115, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (15).jpg
+'indoor', 'table', 'ceiling', 'wall', 'chair', 'furniture', 'dinner', 'kitchen & dining room table', 'person', 'food', 
+'indoor_venue', 
+BA8411, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (3).jpeg
+'ceiling', 'indoor', 'floor', 'wall', 'shelf', 'bottle', 'text', 'kitchen & dining room table', 'store', 'cabinetry', 'room', 'shop', 'chair', 'cafe', 'interior', 
+
+B9A112, Yellow, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (42).jpg
+'indoor', 'ceiling', 'flower', 'vase', 'floor', 'living', 'houseplant', 'table', 'interior design', 'plant', 
+
+
+resources/restaurants/西餐廳/Western restaurant (49).jpg
+'fast food', 'food', 'indoor', 'person', 'clothing', 'text', 'menu', 'counter', 
+'indoor_venue', 
+C28609, White, Orange, 
+
+resources/restaurants/西餐廳/Western restaurant (115).jpg
+
+resources/restaurants/西餐廳/Western restaurant (24).jpg
+'indoor', 'floor', 'table', 'chair', 'ceiling', 'wall', 'kitchen & dining room table', 'room', 'restaurant', 'tableware', 'cafe', 
+'indoor_venue', 
+6B4121, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (1).png
+'text', 'table', 'vase', 
+'indoor_venue', 
+B48917, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (1).jpg
+'table', 'ceiling', 'indoor', 'furniture', 'chair', 'restaurant', 'kitchen & dining room table', 'vase', 'clothing', 
+'indoor_venue', 
+C21F09, Red, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (73).jpg
+'indoor', 'ceiling', 'table', 'floor', 'room', 'restaurant', 'chair', 'kitchen & dining room table', 
+
+714424, Brown, Grey, 
+
+resources/restaurants/西餐廳/Western restaurant (65).jpg
+'plate', 'fast food', 'food', 'table', 'snack', 'person', 'different', 'menu', 'text', 'baked goods', 
+'indoor_marketstore', 
+A98A22, White, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (103).jpg
+'indoor', 'food', 'person', 'text', 'vase', 'fast food', 'tableware', 'furniture', 
+'indoor_marketstore', 
+
+resources/restaurants/西餐廳/Western restaurant (32).jpg
+'indoor', 'floor', 'table', 'chair', 'room', 'kitchen & dining room table', 'ceiling', 'text', 'living', 'cafe', 'coffee table', 'desk', 'bar', 
+
+C38E08, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (4).jpeg
+
+resources/restaurants/西餐廳/Western restaurant (45).jpg
+'table', 'chair', 'indoor', 'kitchen & dining room table', 'window', 'desk', 'coffee table', 'building', 'text', 'interior', 
+'indoor_venue', 
+C24307, Orange, White, 
+
+resources/restaurants/西餐廳/Western restaurant (12).jpg
+'table', 'indoor', 'ceiling', 'floor', 'kitchen & dining room table', 'chair', 'dining', 'room', 'window', 'coffee table', 'restaurant', 'desk', 'building', 
+'indoor_venue', 
+9A5931, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (123).jpg
+'indoor', 'ceiling', 'table', 'floor', 'kitchen & dining room table', 'chair', 'coffee table', 'cafe', 'interior', 'desk', 'room', 'text', 'menu', 'dining', 'scene', 'cabinetry', 'fast food', 'shelf', 'cafeteria', 
+'indoor_', 
+A36328, Grey, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (135).jpg
+'table', 'food', 'fast food', 'indoor', 'ceiling', 'cafe', 'furniture', 'dining', 'kitchen & dining room table', 'tableware', 'meal', 'chair', 
+
+B48F17, White, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (53).jpg
+'text', 'furniture', 'table', 
+'indoor_venue', 
+B79014, White, White, 
+
+resources/restaurants/西餐廳/Western restaurant (28).jpg
+'table', 'tableware', 'furniture', 'vase', 'tablecloth', 'window', 'wedding', 'kitchen & dining room table', 'chair', 'coffee table', 'wine glass', 'linens', 'centrepiece', 'dining', 
+
+
+resources/restaurants/西餐廳/Western restaurant (119).jpg
+'vase', 'table', 'tableware', 'indoor', 'flower', 'furniture', 'coffee table', 'food', 'flowerpot', 'bottle', 
+
+C08F0B, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (90).jpg
+
+resources/restaurants/西餐廳/Western restaurant (69).jpg
+'indoor', 'person', 'ceiling', 'building', 'clothing', 
+
+9A7831, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (86).jpg
+'indoor', 'food', 'dinner', 'snack', 'fast food', 'meal', 'restaurant', 
+
+BE320E, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (68).jpg
+'ceiling', 'indoor', 'table', 'furniture', 'chair', 'person', 'kitchen & dining room table', 'restaurant', 
+'indoor_venue', 
+BE4502, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (87).jpg
+'ceiling', 'indoor', 'person', 'clothing', 'scene', 'people', 
+'indoor_venue', 
+C77704, Orange, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (91).JPG
+'floor', 'indoor', 'furniture', 'table', 'ceiling', 'chair', 'room', 'kitchen & dining room table', 'restaurant', 'hotel', 'desk', 'scene', 'building', 'coffee table', 
+'indoor_venue', 
+B79714, Brown, Yellow, 
+
+resources/restaurants/西餐廳/Western restaurant (118).jpg
+'table', 'floor', 'indoor', 'chair', 'desk', 'kitchen & dining room table', 'ceiling', 'person', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (29).jpg
+'table', 'furniture', 'indoor', 'vase', 'chair', 'coffee table', 'curtain', 'floor', 'kitchen & dining room table', 'house', 'window', 'tablecloth', 
+'indoor_venue', 
+38180B, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (2).jpeg
+
+resources/restaurants/西餐廳/Western restaurant (52).jpg
+'chair', 'table', 'floor', 'indoor', 'coffee table', 'kitchen & dining room table', 'room', 'couch', 'vase', 'interior', 
+'indoor_venue', 
+664729, Brown, Grey, 
+
+resources/restaurants/西餐廳/Western restaurant (134).jpg
+'indoor', 'ceiling', 'fast food', 'food', 'kitchen', 'person', 'snack', 'dessert', 'restaurant', 'chef', 'preparing', 'text', 'dinner', 'dairy', 'delicious', 'culinary', 'baked goods', 
+'indoor_marketstore', 
+9C6B2F, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (122).jpg
+'floor', 'indoor', 'ceiling', 'table', 'room', 'wall', 'desk', 'chair', 'library', 'window', 'office', 
+'indoor_venue', 
+76411A, Brown, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (13).jpg
+'table', 'floor', 'chair', 'ceiling', 'indoor', 'kitchen & dining room table', 
+'indoor_venue', 
+C37E08, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (44).jpg
+'food', 'fast food', 'indoor', 'dinner', 'restaurant', 'cooking', 'dish', 
+
+C78E04, Black, Brown, 
+
+resources/restaurants/西餐廳/Western restaurant (33).jpg
+'table', 'indoor', 'chair', 'living', 'room', 'kitchen & dining room table', 'vase', 'coffee table', 'restaurant', 'bar', 'window', 'candle', 'building', 'ceiling', 
+'indoor_venue', 
+
+resources/restaurants/西餐廳/Western restaurant (102).jpg
+'indoor', 'ceiling', 'fast food', 'food', 'person', 'clothing', 'menu', 'people', 'cafe', 'text', 'man', 'working', 
+
+654724, Brown, White, 
+
+resources/restaurants/西餐廳/Western restaurant (64).jpg
+'indoor', 'ceiling', 'table', 'furniture', 'chair', 'kitchen & dining room table', 'building', 'bottle', 'restaurant', 
+'indoor_venue', 
+B24019, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (72).jpg
+'table', 'floor', 'indoor', 'chair', 'kitchen & dining room table', 'desk', 'coffee table', 'room', 'bar', 'restaurant', 
+
+B98612, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (25).jpg
+'indoor', 'table', 'floor', 'chair', 'vase', 'room', 'hotel', 'ceiling', 'kitchen & dining room table', 'living', 'coffee table', 'house', 'curtain', 
+'indoor_venue', 
+4B3C62, Black, Black, 
+
+resources/restaurants/西餐廳/Western restaurant (114).jpg
+'wine glass', 'table', 'tableware', 'wine', 'glasses', 'indoor', 'stemware', 'drink', 'champagne stemware', 'person', 'drinkware', 'dining', 'barware', 'snifter', 
+
+634B34, Black, White, 
+
+resources/restaurants/西餐廳/Western restaurant (138).jpg
+'indoor', 'table', 'ceiling', 'floor', 'chair', 'desk', 'library', 'kitchen & dining room table', 
+'indoor_venue', 
+A98A22, Yellow, Yellow, 
+
+resources/restaurants/西餐廳/Western restaurant (48).jpg
+'table', 'indoor', 'food', 'fast food', 'restaurant', 'ceiling', 'cafe', 'snack', 'dinner', 
+'indoor_marketstore', 
