@@ -73,6 +73,7 @@ class LocalCV:
 
     def get_categorize_image(self):
         tmp_str = ""
+        tmp_list = []
         # tmp_str += "===== Categorize an Image - local =====\n"
         # Open local image file
         local_image = open(self.local_image_path, "rb")
@@ -84,13 +85,15 @@ class LocalCV:
         # Print category results with confidence score
         # tmp_str += "Categories from local image: \n"
         if (len(categorize_results_local.categories) == 0):
+            print("No categories detected.")
             tmp_str += "No categories detected.\n"
         else:
             for category in categorize_results_local.categories:
                 if (category.score * 100) > 60:
-                    tmp_str += "'{}', ".format(category.name)
-        tmp_str += "\n"
-        return tmp_str
+                    tmp_list.append("{}".format(category.name))
+                    # tmp_str += "'{}', ".format(category.name)
+
+        return tmp_list
 
     def tag_image(self):
         print("===== Tag an Image - local =====")
@@ -110,6 +113,7 @@ class LocalCV:
 
     def get_tag_image(self):
         tmp_str = ""
+        tmp_list = []
         # Open local image file
         local_image = open(self.local_image_path, "rb")
         # Call API local image
@@ -118,13 +122,15 @@ class LocalCV:
         # Print results with confidence score
         # tmp_str += "Tags in the local image: \n"
         if (len(tags_result_local.tags) == 0):
-            tmp_str += "No tags detected.\n"
+            print("No tags detected.")
+            # tmp_str += "No tags detected.\n"
         else:
             for tag in tags_result_local.tags:
                 if (tag.confidence * 100) > 60:
-                    tmp_str += "'{}', ".format(tag.name)
-        tmp_str += "\n"
-        return tmp_str
+                    tmp_list.append("{}".format(tag.name))
+                    # tmp_str += "'{}', ".format(tag.name)
+        # tmp_str += "\n"
+        return tmp_list
 
     def detect_face(self):
         print("===== Detect Faces - local =====")
@@ -199,6 +205,7 @@ class LocalCV:
 
     def get_detect_color(self):
         tmp_str = ""
+        tmp_list = []
         # print("===== Detect Color - local =====\n")
         # Open local image
         local_image = open(self.local_image_path, "rb")
@@ -207,16 +214,19 @@ class LocalCV:
         # Call API with local image and features
         detect_color_results_local = self.computervision_client.analyze_image_in_stream(local_image,
                                                                                         local_image_features)
+        tmp_list.append("{}".format(detect_color_results_local.color.accent_color))
+        tmp_list.append("{}".format(detect_color_results_local.color.dominant_color_background))
+        tmp_list.append("{}".format(detect_color_results_local.color.dominant_color_foreground))
 
         # Print results of the color scheme detected
         # tmp_str += "Getting color scheme of the local image: \n"
         # tmp_str += "{}, ".format(detect_color_results_local.color.is_bw_img)
-        tmp_str += "{}, ".format(detect_color_results_local.color.accent_color)
-        tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_background)
-        tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_foreground)
+        # tmp_str += "{}, ".format(detect_color_results_local.color.accent_color)
+        # tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_background)
+        # tmp_str += "{}, ".format(detect_color_results_local.color.dominant_color_foreground)
         # tmp_str += "{}, ".format(detect_color_results_local.color.dominant_colors)
-        tmp_str += "\n"
-        return tmp_str
+
+        return tmp_list
 
 
     '''

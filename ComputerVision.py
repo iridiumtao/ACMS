@@ -15,6 +15,8 @@ import LocalImageRecognizing
 
 from os import walk
 
+import csv
+
 
 def initialize_check():
     print('initializing')
@@ -44,6 +46,34 @@ def initialize_check():
 def export_data(cv_client, local_path):
     localCV = LocalImageRecognizing.LocalCV(cv_client, local_path)
 
+    tag_image = localCV.get_tag_image()
+    categorize_image = localCV.get_categorize_image()
+    detect_color = localCV.get_detect_color()
+
+    with open('export_data_西餐廳_test.csv', 'a', newline='') as csvfile:
+        # 建立 CSV 檔寫入器
+        writer = csv.writer(csvfile)
+        # 寫入一列資料
+        writer.writerow(tag_image+categorize_image+detect_color)
+
+    if len(tag_image) < 10:
+        print(len(tag_image))
+        return
+    else:
+        tmp_list = tag_image[0:10]
+        print(tmp_list)
+
+    # 開啟輸出的 CSV 檔案
+    with open('export_data_西餐廳.csv', 'a', newline='') as csvfile:
+        # 建立 CSV 檔寫入器
+        writer = csv.writer(csvfile)
+
+        # 寫入一列資料
+        writer.writerow(tmp_list+categorize_image+detect_color)
+
+
+
+    '''
     # Filename to write
     filename = "export_data_西餐廳.txt"
     # Open the file with writing permission
@@ -51,13 +81,15 @@ def export_data(cv_client, local_path):
     # Write a line to the file
     # Close the file
     print("Exporting {}".format(localCV.get_image_path()))
-    myfile.write("\n")
-    myfile.write(localCV.get_image_path())
-    myfile.write("\n")
+    # myfile.write("\n")
+    # myfile.write(localCV.get_image_path())
+    # myfile.write("\n")
     myfile.write(localCV.get_tag_image())
     myfile.write(localCV.get_categorize_image())
     myfile.write(localCV.get_detect_color())
     myfile.close()
+    '''
+
 
 
 if __name__ == '__main__':
@@ -79,10 +111,17 @@ if __name__ == '__main__':
     path = "resources/restaurants/西餐廳/"
     myfile.write("AAAAAAAAA\n")
 
+    open('export_data_西餐廳.csv', 'w', newline='')
+    open('export_data_西餐廳_test.csv', 'w', newline='')
+
+
+
     f = []
     for (dirpath, dirnames, filenames) in walk(path):
         f.extend(filenames)
         break
+
+    # export_data(computervision_client, path + "Western restaurant (135).jpg")
 
     for i in range(len(f)):
         try:
