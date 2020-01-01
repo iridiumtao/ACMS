@@ -17,6 +17,7 @@ from os import walk
 
 import csv
 
+category = "速食餐廳2"
 
 def initialize_check():
     print('initializing')
@@ -50,7 +51,7 @@ def export_data(cv_client, local_path):
     categorize_image = localCV.get_categorize_image()
     detect_color = localCV.get_detect_color()
 
-    with open('export_data_西餐廳_test.csv', 'a', newline='') as csvfile:
+    with open('export_data_'+category+'_test.csv', 'a', newline='') as csvfile:
         # 建立 CSV 檔寫入器
         writer = csv.writer(csvfile)
         # 寫入一列資料
@@ -64,12 +65,12 @@ def export_data(cv_client, local_path):
         print(tmp_list)
 
     # 開啟輸出的 CSV 檔案
-    with open('export_data_西餐廳.csv', 'a', newline='') as csvfile:
+    with open('export_data_'+category+'.csv', 'a', newline='') as csvfile:
         # 建立 CSV 檔寫入器
         writer = csv.writer(csvfile)
 
         # 寫入一列資料
-        writer.writerow(tmp_list+categorize_image+detect_color)
+        writer.writerow(tmp_list+detect_color)
 
 
 
@@ -103,16 +104,11 @@ if __name__ == '__main__':
     urlCV.tag_image()
     urlCV.color_image()
     '''
-    # Filename to write
-    filename = "export_data_西餐廳.txt"
-    # Open the file with writing permission
-    myfile = open(filename, 'w')
 
-    path = "resources/restaurants/西餐廳/"
-    myfile.write("AAAAAAAAA\n")
+    path = 'resources/restaurants/'+category+'/'
 
-    open('export_data_西餐廳.csv', 'w', newline='')
-    open('export_data_西餐廳_test.csv', 'w', newline='')
+    open('export_data_'+category+'.csv', 'w', newline='')
+    open('export_data_'+category+'_test.csv', 'w', newline='')
 
 
 
@@ -128,8 +124,8 @@ if __name__ == '__main__':
             export_data(computervision_client, path + f[i])
             print(path + f[i]+" Export succeed.\n")
         except:
-            print("Waiting for 30 sec...")
-            time.sleep(30)
+            print("Waiting for 60 sec...")
+            time.sleep(60)
 
     print("Process finished")
 
