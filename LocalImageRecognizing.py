@@ -214,7 +214,7 @@ class LocalCV:
         # Call API with local image and features
         detect_color_results_local = self.computervision_client.analyze_image_in_stream(local_image,
                                                                                         local_image_features)
-        tmp_list.append("{}".format(detect_color_results_local.color.accent_color))
+        # tmp_list.append("{}".format(detect_color_results_local.color.accent_color))
         tmp_list.append("{}".format(detect_color_results_local.color.dominant_color_background))
         tmp_list.append("{}".format(detect_color_results_local.color.dominant_color_foreground))
 

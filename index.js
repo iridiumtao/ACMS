@@ -20,7 +20,7 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
 
 const clientId = '6be02df553ae4215a978d21e2fe46d4d';
-const redirectUri = 'http://192.168.43.141/';
+const redirectUri = 'http://127.0.0.1:5500/';
 const scopes = [
   'streaming',
   'user-read-private',
@@ -75,7 +75,7 @@ window.onSpotifyPlayerAPIReady = () => {
         paused,
         position,
       } = state;
-      console.log(position);
+      //console.log(position);
     
       $('#current-track-position').text(position);
       if (!paused){
@@ -101,10 +101,12 @@ window.onSpotifyPlayerAPIReady = () => {
 
 // Play a specified track on the Web Playback SDK's device ID
 function play(device_id) {
+  demoSongUri = loadFile("demo_song.txt");
+  console.log('Song URI', demoSongUri)
   $.ajax({
    url: "https://api.spotify.com/v1/me/player/play?device_id=" + device_id,
    type: "PUT",
-   data: '{"uris": ["spotify:track:2cE5PbW9PhPmnyETXqH3VE"]}',
+   data: '{"uris": ["'+demoSongUri+'"]}',
    beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + _token );},
    success: function(data) { 
      console.log(data)
@@ -112,3 +114,29 @@ function play(device_id) {
   });
 }
 
+// Synchronously read a text file from the web server with Ajax
+//
+// The filePath is relative to the web page folder.
+// Example:   myStuff = loadFile("Chuuk_data.txt");
+//
+// You can also pass a full URL, like http://sealevel.info/Chuuk1_data.json, but there
+// might be Access-Control-Allow-Origin issues. I found it works okay in Firefox, Edge,
+// or Opera, and works in IE 11 if the server is configured properly, but in Chrome it only
+// works if the domains exactly match (and note that "xyz.com" & "www.xyz.com" don't match).
+// Otherwise Chrome reports an error:
+//
+//   No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://sealevel.info' is therefore not allowed access.
+//
+// That happens even when "Access-Control-Allow-Origin *" is configured in .htaccess,
+// and even though I verified the headers returned (you can use a header-checker site like
+// http://www.webconfs.com/http-header-check.php to check it). I think it's a Chrome bug.
+function loadFile(filePath) {
+  var result = null;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", filePath, false);
+  xmlhttp.send();
+  if (xmlhttp.status==200) {
+    result = xmlhttp.responseText;
+  }
+  return result;
+}

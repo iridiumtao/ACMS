@@ -17,11 +17,13 @@ from os import walk
 
 import csv
 
-category = "速食餐廳2"
+category = "熱炒餐廳2"
+
 
 def initialize_check():
-    print('initializing')
+    print('Initializing...')
 
+    '''
     # Add your Computer Vision subscription key to your environment variables.
     if 'COMPUTER_VISION_SUBSCRIPTION_KEY' in os.environ:
         subscription_key = os.environ['COMPUTER_VISION_SUBSCRIPTION_KEY']
@@ -29,7 +31,7 @@ def initialize_check():
         print(
             "\nSet the COMPUTER_VISION_SUBSCRIPTION_KEY environment variable."
             "\n**Restart your shell or IDE for changes to take effect.**")
-        # sys.exit()
+        sys.exit()
     # Add your Computer Vision endpoint to your environment variables.
     if 'COMPUTER_VISION_ENDPOINT' in os.environ:
         endpoint = os.environ['COMPUTER_VISION_ENDPOINT']
@@ -37,9 +39,11 @@ def initialize_check():
         print(
             "\nSet the COMPUTER_VISION_ENDPOINT environment variable."
             "\n**Restart your shell or IDE for changes to take effect.**")
-        # sys.exit()
+        sys.exit()
+    '''
 
 
+    # return ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
     # return ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 
